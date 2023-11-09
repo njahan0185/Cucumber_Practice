@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can log in",
+        "description": "",
+        "id": "this-is-a-log-in-feature-for-verify-log-in-functionality;verify-user-can-log-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3591383401,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open demoblaze application",
+            "match": {
+              "location": "StepDef.open_demoblaze_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78389000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click log in",
+            "match": {
+              "location": "StepDef.click_log_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249918699,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter user name",
+            "match": {
+              "location": "StepDef.enter_user_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151859200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter password",
+            "match": {
+              "location": "StepDef.enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53612200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify user can log in",
+            "match": {
+              "location": "StepDef.verify_user_can_log_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a log in feature for verify log in functionality",
+    "description": "",
+    "id": "this-is-a-log-in-feature-for-verify-log-in-functionality",
+    "keyword": "Feature",
+    "uri": "signup.feature"
+  }
+]
